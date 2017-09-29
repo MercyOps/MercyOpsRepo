@@ -1,3 +1,6 @@
+# Michael Matuska - 09/29/2017 
+# Script to retrieve all snapshots from all VM's and find the ones that are 3 days old 
+
 Import-Module VMware.VimAutomation.Core
 
 $LogFile = "VMSnapShot3DaysOld_" + (Get-Date -UFormat "%d-%b-%Y") + ".csv"
